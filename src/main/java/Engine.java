@@ -10,11 +10,9 @@ public class Engine implements Icomponent {
         this.status = status;
     }
 
-    private boolean changeStatus(){
-        if (!this.status){
-            return this.status = true;}
-        else {
-            return this.status = false;}
+    private void changeStatus(){
+
+        status = !status;
     }
 
     public void operate(){

@@ -28,8 +28,4 @@ public class DealershipTest {
         assertEquals(1, dealership.vehiclesNumber());
     }
 
-
-
-
-
 }

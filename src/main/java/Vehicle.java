@@ -23,4 +23,12 @@ public abstract class Vehicle{
         this.components.add(component);
     }
 
+    public int getPrice() {
+        return price;
+    }
+
+    public String getColour() {
+        return colour;
+    }
+
 }
